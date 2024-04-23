@@ -1,0 +1,1 @@
+INSERT INTO results (SrNo,ReferenceNo,JournalDate,DateOfPurchase,DateOfExpiry,PurchaserName,Prefix,BondNumber,Denominations,IssueBranchCode,IssueTeller,Status) 

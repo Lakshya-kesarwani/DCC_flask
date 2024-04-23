@@ -1,0 +1,84 @@
+<form method="POST" action="">
+  <h1>  BondNumber 
+    <br>
+  <input type="text" name="bond" placeholder="Enter Bond Number"/></h1>
+  <button type="submit">Submit</button>
+
+  <br>
+  <br>
+
+  <label for="company">Select Company/Individual:</label>
+  <select name="company" id="company">
+      <option value="Company">company</option>
+      <option value="Individual">Individual</option>
+
+    
+  </select>
+  <br>
+  <input type="submit">
+</form>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bond Number Form</title>
+    <style>
+        /* Style for the form container */
+        .form-container {
+            width: 300px;
+            margin: 0 auto;
+        }
+
+        /* Style for the form input */
+        .form-input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 2px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+            box-sizing: border-box;
+        }
+
+        /* Style for the form submit button */
+        .form-submit {
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            box-sizing: border-box;
+        }
+
+        /* Hover effect for the form submit button */
+        .form-submit:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+  <h1>Purchase Details of Bonds </h1>
+    <div class="form-container">
+        <form method="POST" action="">
+            <input type="text" name ="bond" class="form-input" placeholder="Enter 4-digit Bond Number" maxlength="4">
+            <button type="submit" class="form-submit">Submit</button>
+        </form>
+    </div>
+    
+  <br>
+  <br>
+
+  <label for="company">Select Company/Individual:</label>
+  <select id="company">
+      <option >company</option>
+      <option >Individual</option>
+
+    
+  </select>
+</body>
+</html>
